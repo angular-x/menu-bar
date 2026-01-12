@@ -1,0 +1,38 @@
+<p-menubar #menuBar [model]="menuBarService.items" class="flex-col">
+  <ng-template #start>
+    <!-- <img src="https://upload.wikimedia.org/wikipedia/commons/6/67/Angular_gradient_logo.png" alt="logo" class="w-15" /> -->
+  </ng-template>
+
+  <ng-template #item let-item let-root="root">
+    <a
+      [routerLink]="item.routerLink"
+      [routerLinkActive]="['active', 'shadow-lg', 'transition-shadow', 'duration-300']"
+      [routerLinkActiveOptions]="{exact: true}"
+      pRipple
+      class="flex items-center p-menubar-item-link"
+    >
+      <i *ngIf="item.icon" [ngClass]="item.icon" class="mr-2"></i>
+      <span>{{ item.label }}</span>
+  </a>
+  </ng-template>
+
+  <ng-template #end>
+    <div class="flex flex-row">
+      <!--
+      <ng-container *ngFor="let item of menuBarService.items">
+        <a [routerLink]="item.routerLink" pRipple class="flex items-center p-menubar-item-link">
+          <span>{{ item.label }}</span>
+        </a>
+      </ng-container>
+      -->
+      <!-- <p-button
+        class="ml-2"
+        icon="pi pi-plus"
+        (onClick)="openBookingDialog()"
+        size="small"
+        label="Book Training"
+        severity="info"
+      ></p-button> -->
+    </div>
+  </ng-template>
+</p-menubar>

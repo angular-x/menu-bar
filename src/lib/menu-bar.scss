@@ -1,0 +1,38 @@
+
+::ng-deep {
+  .p-menubar-separator {
+    display: none;
+  }
+  :host(.vertical) {
+    p-menubar {
+      height: auto;
+    }    
+  }
+  ax-menu-bar {
+    &.vertical {
+      p-menubar {
+        width: 250px;
+        height: 100vh;
+        border: none;
+
+        ul.p-menubar-root-list {
+          flex-direction: column;
+          width: 100%;
+
+          .p-menubar-item {
+            width: 100%;
+          }
+        }
+
+      }
+    }
+
+    .p-menubar-item-link {
+      &.active {
+        border-radius: var(--p-border-radius-lg);
+        color: var(--p-primary-50);
+        background: var(--p-primary-500);
+      }
+    }
+  }
+}
