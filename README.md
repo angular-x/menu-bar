@@ -1,26 +1,21 @@
 <a href="https://github.com/typescript-package">
   <img
     src="https://avatars.githubusercontent.com/u/189665258?s=150&u=712e292bae048947d1f7d2020d7d38875c40e63a&v=4"
-    title="@angular.x/project - An Angular library for layout."
+    title="@angular.x/menu-bar - An Angular library for menu-bar."
   />
 </a>
 
-## @angular.x/layout
+## @angular.x/menu-bar
 
 <!-- npm badge -->
 [![npm version][angular.x-npm-badge-svg]][angular.x-npm-badge]
 [![GitHub issues][angular.x-badge-issues]][angular.x-issues]
 [![GitHub license][angular.x-badge-license]][angular.x-license]
 
-An **Angular** library for layout.
+An **Angular** library for a customizable [PrimeNG](https://primeng.org/) menu bar component.
 
 ## Features
 
-- Named layout regions: left, right, top, bottom, center
-- Sidebar and panel components that can be shown, hidden, or collapsed
-- Supports both full DOM removal and visual hiding via CSS
-- Works seamlessly with Angular’s inputs, outputs, and content projection
-- Designed for dashboard, admin, or enterprise-style applications
 
 ## Table of contents
 
@@ -41,7 +36,7 @@ An **Angular** library for layout.
 ## Installation
 
 ```bash
-npm install @angular.x/project --save-peer
+npm install @angular.x/menu-bar --save-peer
 ```
 
 ## Api
@@ -52,7 +47,7 @@ import {
   Component,
   // Service.
   Service
-} from '@angular.x/project';
+} from '@angular.x/menu-bar';
 ```
 
 ### Component
@@ -60,7 +55,7 @@ import {
 ### `Component`
 
 ```typescript
-import { Component } from '@angular.x/project';
+import { Component } from '@angular.x/menu-bar';
 ```
 
 ### Service
@@ -68,7 +63,7 @@ import { Component } from '@angular.x/project';
 ### `Service`
 
 ```typescript
-import { Service } from '@angular.x/project';
+import { Service } from '@angular.x/menu-bar';
 ```
 
 ## Contributing
@@ -137,21 +132,21 @@ MIT © angular.x ([license][angular.x-license])
 
 <!-- This package: angular.x  -->
   <!-- GitHub: badges -->
-  [angular.x-badge-issues]: https://img.shields.io/github/issues/angular.x/project
-  [angular.x-badge-forks]: https://img.shields.io/github/forks/angular.x/project
-  [angular.x-badge-stars]: https://img.shields.io/github/stars/angular.x/project
-  [angular.x-badge-license]: https://img.shields.io/github/license/angular.x/project
+  [angular.x-badge-issues]: https://img.shields.io/github/issues/angular.x/menu-bar
+  [angular.x-badge-forks]: https://img.shields.io/github/forks/angular.x/menu-bar
+  [angular.x-badge-stars]: https://img.shields.io/github/stars/angular.x/menu-bar
+  [angular.x-badge-license]: https://img.shields.io/github/license/angular.x/menu-bar
   <!-- GitHub: badges links -->
-  [angular.x-issues]: https://github.com/angular.x/project/issues
-  [angular.x-forks]: https://github.com/angular.x/project/network
-  [angular.x-license]: https://github.com/angular.x/project/blob/master/LICENSE
-  [angular.x-stars]: https://github.com/angular.x/project/stargazers
+  [angular.x-issues]: https://github.com/angular.x/menu-bar/issues
+  [angular.x-forks]: https://github.com/angular.x/menu-bar/network
+  [angular.x-license]: https://github.com/angular.x/menu-bar/blob/master/LICENSE
+  [angular.x-stars]: https://github.com/angular.x/menu-bar/stargazers
 <!-- This package -->
 
 <!-- Package: angular.x -->
   <!-- npm -->
-  [angular.x-npm-badge-svg]: https://badge.fury.io/js/@angular.x%2Fproject.svg
-  [angular.x-npm-badge]: https://badge.fury.io/js/@angular.x%2Fproject
+  [angular.x-npm-badge-svg]: https://badge.fury.io/js/@angular.x%2Fmenu-bar.svg
+  [angular.x-npm-badge]: https://badge.fury.io/js/@angular.x%2Fmenu-bar
 
 <!-- GIT -->
 [git-semver]: http://semver.org/
